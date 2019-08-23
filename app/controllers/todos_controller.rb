@@ -14,6 +14,7 @@ class TodosController < ApplicationController
     json_response(@todo, :created)
   end
 
+
   # GET /todos/:id
   def show
     json_response(@todo)
